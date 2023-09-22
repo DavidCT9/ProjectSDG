@@ -1,20 +1,18 @@
-html {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    width: 100%;
+*{
+    font-family: 'Josefin Sans', sans-serif;
 }
 
+.navbar {
+    background-color: rgb(20, 108, 148);
+  }
 
-
-body{
-    margin-left: 0;
-    margin-right: 0;
-    padding: 0;
-    margin: 0;
+.navbar-brand{
+    color: rgb(246, 241, 241);
 }
-
-.container_text-center {
-    margin: 0;
-    padding: 0;
+.nav-link.active{
+    color: rgb(246, 241, 241);
 }
+.nav-link{
+    color:  rgb(246, 241, 241);
+}
+  
