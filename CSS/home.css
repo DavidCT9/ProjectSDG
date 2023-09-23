@@ -1,3 +1,4 @@
+/*Here starts the styling for the navbar*/
 *{
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -6,13 +7,17 @@
     background-color: rgb(20, 108, 148);
   }
 
-.navbar-brand{
+
+.nav-link.active, .navbar-brand{
     color: rgb(246, 241, 241);
 }
-.nav-link.active{
-    color: rgb(246, 241, 241);
+
+.img-fluid{
+    height: 40px;
+    width: 40px;
 }
-.nav-link{
-    color:  rgb(246, 241, 241);
+
+.navbar-toggler-icon{
+background-image: url('../IMG/dropdown.svg');
 }
-  
+/*Here ends the styling for the navbar*/
