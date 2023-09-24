@@ -42,9 +42,24 @@ background-image: url('../IMG/dropdown.svg');
 }
 
 body{
-    background-color: black;
+    background-color: rgb(25, 167, 206);
 }
 
 .card{
     margin: 2%;
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+#FourthCard{
+    max-height: 40em;
+}
+
+.card-text{
+    font-size: medium;
+}
+
+.btn{
+    background-color:  rgb(20, 108, 148);
+    border: 1px  rgb(20, 108, 148);
+
 }
