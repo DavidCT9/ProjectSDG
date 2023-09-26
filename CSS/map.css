@@ -1,0 +1,40 @@
+/*Here starts the styling for the navbar*/
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar {
+    background-color: rgb(20, 108, 148);
+  }
+
+
+.nav-link.active, .navbar-brand{
+    color: rgb(246, 241, 241);
+}
+
+.img-fluid{
+    height: 40px;
+    width: 40px;
+}
+
+.navbar-toggler-icon{
+background-image: url('../IMG/dropdown.svg');
+}
+
+.btn-outline-success{
+    color: rgb(246, 241, 241);
+    border-color: rgb(246, 241, 241);
+}
+/*Here ends the styling for the navbar*/
+
+body{
+    background-color: rgb(25, 167, 206);
+}
+
+.container {
+    padding: 2%;
+}
+
+.col {
+    padding: 2%;
+}
