@@ -30,7 +30,7 @@ background-image: url('../IMG/dropdown.svg');
 
 #videos {
     float: right;
-    margin-left: 100px;
+    /*margin-left: 100px;*/
     
     margin-top: 80px;
     width: 500px; /* Ancho del contenedor */
@@ -47,5 +47,16 @@ background-image: url('../IMG/dropdown.svg');
     margin-bottom: 50px;
     
 }
+
+@media screen and (max-width:1200px) {
+    #texto-videos{
+        width: 90%;
+    }
+
+    #videos {
+        width: 90%;
+    }
+}   
+
 
 
