@@ -28,7 +28,7 @@ background-image: url('../IMG/dropdown.svg');
 /*Here ends the styling for the navbar*/
 
 body{
-    background-color: rgb(25, 167, 206);
+    background-color: white;
 }
 
 .container {
@@ -37,4 +37,8 @@ body{
 
 .col {
     padding: 2%;
+}
+.card{
+    margin: 2%;
+    box-shadow: 0rem 0rem 2rem 0rem rgba(0, 0, 0, 0.15);
 }
