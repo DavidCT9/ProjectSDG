@@ -15,7 +15,7 @@
 <!--SE AGREGA BARRA DE NAVEGACION-->
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="/index">
         <img src="IMG/LOGO.png" class="img-fluid" alt="LOGO" />
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -25,19 +25,19 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+            <a class="nav-link active" aria-current="page" href="/index">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="map.html">MAP</a>
+            <a class="nav-link active" aria-current="page" href="/map">MAP</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="more_content.html">MORE</a>
+            <a class="nav-link active" aria-current="page" href="/more_content">MORE</a>
           </li>
 
           </li>
         </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <form action="/search" method="get" class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="search">
           <button class="btn btn-outline-success" type="submit">Search</button>
         </form>
       </div>
@@ -94,7 +94,6 @@
 
 
   </div>
-<!--SE TERMINAN DE AGREGAR TEXTOS Y VIDEO-->
+    <!--SE TERMINAN DE AGREGAR TEXTOS Y VIDEO-->
 
-</body>
-</html>
+<%- include('partials/footer'); -%>
